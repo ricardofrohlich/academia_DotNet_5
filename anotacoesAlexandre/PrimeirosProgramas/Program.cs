@@ -17,8 +17,8 @@
 //3) Escreva a seqüência de atribuições, em forma de programa em C# e no Visual Studio,
 //para trocar entre si os valores de duas variáveis A e B.
 
-int a = 9;
-int b = 10;
+//int a = 9;
+//int b = 10;
 
 //a <= 10
 //b <= 9
@@ -26,9 +26,9 @@ int b = 10;
 //a <= b <= 10
 //b <= tmp
 
-int tmp = a; //backup do conteudo do a
-a = b; //a recebe o conteudo do b
-b = tmp; //o conteudo salvo em tmp vai para b
+//int tmp = a; //backup do conteudo do a
+//a = b; //a recebe o conteudo do b
+//b = tmp; //o conteudo salvo em tmp vai para b
 
 //Console.Write("Digite uma frase qualquer: ");
 //string frase = Console.ReadLine();
@@ -73,10 +73,10 @@ b = tmp; //o conteudo salvo em tmp vai para b
 //todo vetor é uma estrutura homogenea de n posições, sempre começando em 0
 
 
-DateOnly data = DateOnly.Parse("03/12/2023");
-Console.WriteLine(data.Year.ToString().Substring(2));
-Console.WriteLine(data.Month.ToString("D2"));
-Console.WriteLine(data.Day.ToString("D2"));
+//DateOnly data = DateOnly.Parse("03/12/2023");
+//Console.WriteLine(data.Year.ToString().Substring(2));
+//Console.WriteLine(data.Month.ToString("D2"));
+//Console.WriteLine(data.Day.ToString("D2"));
 
 
 //if (condicao)
@@ -115,3 +115,47 @@ Console.WriteLine(data.Day.ToString("D2"));
 //{
 //    Console.WriteLine("Um dos valores de base ou altura está igual 0!");
 //}
+
+
+//6 - Faça um programa em C# e no Visual Studio para receber o nome
+//(totalmente em maiúsculo), a altura (metros) e o peso (kg) de uma pessoa.
+//O programa deve calcular o Indice de Massa Corpórea (IMC), exibi - lo ao usuário e
+//informar sua situação conforme a tabela.
+//O cálculo do imc = peso / (altura * altura)
+
+//IMC
+//menor que 18                -> baixo peso
+//maior que 18 e menor que 25 -> peso normal
+//maior que 25 e menor que 30 -> sobrepeso
+//maior que 30 e menor que 35 -> obesidade
+//maior que 35                -> obesidade grau sério
+
+Console.Write("Informe seu nome: ");
+string nome = Console.ReadLine().ToUpper();
+
+Console.Write("Sua altura em metros: ");
+double altura = double.Parse( Console.ReadLine() );
+
+Console.Write("Seu pso em kilos: ");
+double peso = double.Parse(Console.ReadLine());
+
+double imc = peso / (altura * altura);
+Console.WriteLine(nome + " seu IMC é de " + imc.ToString("0.#"));
+
+if (imc < 18)
+{
+    Console.WriteLine("Baixo peso");
+} else if (imc < 25)
+{
+    Console.WriteLine("Peso normal");
+} else if (imc < 30)
+{
+    Console.WriteLine("Sobre peso");
+}
+else if (imc < 35)
+{
+    Console.WriteLine("Obesidade");
+} else
+{
+    Console.WriteLine("Obesidade grau sério");
+}
