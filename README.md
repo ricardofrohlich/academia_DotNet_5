@@ -1,6 +1,6 @@
 # Academia Dot Net 2023 (Outubro a Dezembro)
 
-Quinta Turma de formação DotNET entre a empresa Atos e a Universidade Franciscana (UFN).
+Quinta Turma de formação DotNET.
 
 ## Professores: 
 
