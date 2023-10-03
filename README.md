@@ -10,7 +10,7 @@ Quinta Turma de formação DotNET entre a empresa Atos e a Universidade Francisc
 
 ## Calendário
 
-Calendário do <a href="https://retrospectiva-orpin.vercel.app/" target="_blank">
+Calendário do <a href="https://retrospectiva-6-academia-atos.vercel.app/" target="_blank">
 conteúdo que já foi apresentado</a>
 
 # Backend C#
