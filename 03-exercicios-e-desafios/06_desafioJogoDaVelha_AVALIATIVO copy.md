@@ -6,7 +6,7 @@
     2) Teste se a posição é válida e caso não seja solicite ao jogador repetir a jogada. 
     3) Após cada jogada, apresente o tabuleiro com as jogadas representadas por "X" e "O" e faça a verficação se algum jogador venceu.
     4) Caso seja empate, apresente o resultado na tela. 
-    5) Possilibilite que o jogo seja reinicializado sem a necessidade de reiniciar o jogo. 
+    5) Possilibilite que o jogo seja reinicializado sem a necessidade de reiniciar o programa. 
 
 
 ## Desafio extra (pode valer por alguma atividade futura): 
