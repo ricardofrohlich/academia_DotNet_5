@@ -5,7 +5,7 @@
 5) Desenvolva uma função que converta uma temperatura em graus Celsius para Fahrenheit.
 6) Escreva uma função que calcule a média de um vetor de 10 números.
 7) Crie uma função que determine se um número é primo ou não.
-8) Ler um número inteiro e passar por parâmetro para uma função e 0, se o número é par, ou 1, se o número é ímpar.
+8) Ler um número inteiro e passar por parâmetro para uma função e retornar 0, se o número é par, ou 1, se o número é ímpar.
 9) Escrever um programa com uma função que receba por parâmetro dois números (n1 e n2) e retorna a soma dos números inteiros que existem entre n1 e n2 (inclusive ambos). Apresente o resultado na main.
 Desafio: Ler um vetor de inteiros com 10 elementos e passar por parâmetro para uma função que verifica e retorna o menor elemento do vetor.
 
