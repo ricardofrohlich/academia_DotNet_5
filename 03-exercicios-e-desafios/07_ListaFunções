@@ -1,5 +1,6 @@
 1) Fazer uma calculadora das 4 operações (soma, subtração, multiplicação e divisão) Para isso, precisaremos aceitar números com vírgula.
-2) Fazer programa que tenha duas funções. i) para ler um vetor de 10 elementos (variável global) e ii) para verificar e apresentar a quantidade de elementos pares que este vetor possui.
+2) Fazer programa que tenha duas funções. i) para ler um vetor de 10 elementos (variável global) e ii) para verificar e apresentar a quantidade
+de elementos pares que este vetor possui.
 3) Desenvolva uma função que calcule a média de três números fornecidos como argumentos.
 4) Escreva uma função que calcule o fatorial de um número inteiro positivo.
 5) Desenvolva uma função que converta uma temperatura em graus Celsius para Fahrenheit.
