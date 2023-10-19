@@ -1,0 +1,13 @@
+1 - Na teoria dos Sistemas, define-se como elemento minimax de uma matriz, o menor elemento da linha em que se encontra o maior elemento da matriz. Escreva um programa que lê uma matriz [10 X 10] e em uma função encontre e mostre o elemento minimax e sua posição na matriz.
+
+2 - Escreva uma função chamada CalcularMedia que recebe um vetor de números, a informação se o usuário deseja escolher os pares ou os impares, e retorna a média dos valores conforme a escolha do usuário.
+
+3 - Escreva uma função chamada TransporMatriz que recebe uma matriz como parâmetro e retorna a matriz transposta.
+
+4 - Escreva uma função chamada MultiplicarMatrizes que recebe duas matrizes como parâmetros e retorna a matriz resultante da multiplicação.
+
+5 - Crie uma função chamada SomaDiagonalPrincipal que recebe uma matriz quadrada como parâmetro e retorna a soma dos elementos na diagonal principal.
+
+6 - Escreva uma função chamada MediaColunaMatriz que recebe uma matriz e um número de coluna como parâmetros, e retorna a soma dos elementos nessa coluna.
+
+7 - Crie uma função chamada VerificarNumeroPrimo que recebe um vetor de números inteiros como parâmetro e retorna verdadeiro se pelo menos um número primo estiver presente no vetor, e falso caso contrário.
