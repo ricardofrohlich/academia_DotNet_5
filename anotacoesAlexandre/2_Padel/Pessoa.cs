@@ -35,4 +35,28 @@ public class Pessoa
         return vetor[ vetor.Length - 1 ];
     }
 
+    public static bool estaContido(string email, List<Atleta> lista)
+    {
+        foreach (var atleta in lista)
+        {
+            if (email == atleta.Email)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public static int pesquisaNomeEmail(string pesquisa, List<Atleta> lista)
+    {
+        for (int i = 0; i < lista.Count; i++)
+        {
+            if (pesquisa == lista[i].Email || lista[i].Nome.Contains(pesquisa))
+            {
+                return i;
+            }
+        }
+        return -1;
+    }
+
 }

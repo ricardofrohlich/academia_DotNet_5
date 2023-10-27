@@ -11,6 +11,7 @@ namespace _2_Padel
             string opcao = "";
             do
             {
+                Console.Clear();
                 Console.WriteLine("Menu Padel");
                 Console.WriteLine("1 - Cadastrar atleta");
                 Console.WriteLine("2 - Listar atletas");
@@ -33,7 +34,7 @@ namespace _2_Padel
                         break;
                     case "3":
                         Console.WriteLine("Remoção de atleta");
-                        //Comunicacao.removerAtletas(listaAtletas);
+                        Comunicacao.removerAtleta(listaAtletas);
                         break;
                     case "7":
                         break;
@@ -41,6 +42,7 @@ namespace _2_Padel
                         Console.WriteLine("Opção inválida!");
                         break;
                 }
+                Console.ReadKey(true);
             } while (opcao != "7");
         }
     }

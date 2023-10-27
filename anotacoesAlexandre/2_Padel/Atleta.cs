@@ -11,19 +11,4 @@ public class Atleta : Pessoa
         this.Categoria = categoria;  
     }
 
-    public static bool estaContido(string email, List<Atleta> lista) 
-    {
-        foreach (var atleta in lista) 
-        {
-            if (email == atleta.Email)
-            {
-                return true;
-            }
-        }
-        return false;
-    }
-
 }
-
-
-
