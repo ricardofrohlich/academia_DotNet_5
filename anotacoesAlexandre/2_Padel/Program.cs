@@ -35,6 +35,7 @@ namespace _2_Padel
                     case "3":
                         Console.WriteLine("Remoção de atleta");
                         Comunicacao.removerAtleta(listaAtletas);
+                        //Persistencia.gravarAtleta(listaAtletas);
                         break;
                     case "7":
                         break;
