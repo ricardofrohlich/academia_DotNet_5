@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace _2_Padel
 {
-    internal class Utilidades
+    class Utilidades
     {
         public static bool EmailIsValid(string email)
         {
