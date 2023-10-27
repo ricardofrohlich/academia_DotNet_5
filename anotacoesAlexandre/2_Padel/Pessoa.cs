@@ -48,7 +48,7 @@ public class Pessoa
     }
 
     public static int pesquisaNomeEmail(string pesquisa, List<Atleta> lista)
-    {
+    {        
         for (int i = 0; i < lista.Count; i++)
         {
             if (pesquisa == lista[i].Email || lista[i].Nome.Contains(pesquisa))

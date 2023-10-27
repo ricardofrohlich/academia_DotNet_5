@@ -68,16 +68,26 @@ public class Comunicacao
         string pesquisa;
         Console.Write("Informe parte do nome ou o email: ");
         pesquisa = Console.ReadLine();
-
-        int posicao = Pessoa.pesquisaNomeEmail(pesquisa, lista);
-        if (posicao != -1)
+        
+        Atleta? atleta = lista.Find(atleta => atleta.Nome.Contains(pesquisa) || atleta.Email.Contains(pesquisa));
+        if (atleta != null)
         {
-            Console.WriteLine("Atleta localizado...." + lista[posicao].Nome);
-            lista.RemoveAt(posicao);
-        }
-        else
+            lista.Remove(atleta);
+        } else 
         {
             Console.WriteLine("Atleta não localizado!!");
         }
+
+        //versão mais simples
+        //int posicao = Pessoa.pesquisaNomeEmail(pesquisa, lista);
+        //if (posicao != -1)
+        //{
+        //    Console.WriteLine("Atleta localizado...." + lista[posicao].Nome);
+        //    lista.RemoveAt(posicao);
+        //}
+        //else
+        //{
+        //    Console.WriteLine("Atleta não localizado!!");
+        //}
     }
 }

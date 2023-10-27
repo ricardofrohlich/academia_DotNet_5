@@ -42,6 +42,7 @@ namespace _2_Padel
                         Console.WriteLine("Opção inválida!");
                         break;
                 }
+                Console.Write("Tecle ENTER para continuar.....");
                 Console.ReadKey(true);
             } while (opcao != "7");
         }
