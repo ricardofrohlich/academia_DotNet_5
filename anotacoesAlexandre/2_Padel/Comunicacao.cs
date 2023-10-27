@@ -59,7 +59,7 @@ public class Comunicacao
     {
         foreach (var atleta in lista)
         {
-            Console.WriteLine("Atleta: " + atleta.sobrenome() + " - " + atleta.PosicaoQuadra + " - " + atleta.Categoria);
+            Console.WriteLine("Atleta: " + atleta.sobrenome() + " - " + atleta.PosicaoQuadra + ". Categoria: " + atleta.Categoria);
         }
     }
 
