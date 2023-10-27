@@ -78,6 +78,7 @@ public class Comunicacao
         Atleta? atleta = lista.Find(atleta => atleta.Nome.Contains(pesquisa) || atleta.Email.Contains(pesquisa));
         if (atleta != null)
         {
+            Console.WriteLine("Atleta localizado...... " + atleta.Nome);
             lista.Remove(atleta);
         } else 
         {
