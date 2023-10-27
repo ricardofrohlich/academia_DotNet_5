@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 
-
 namespace _2_Padel
 {
     class Program
@@ -23,16 +22,19 @@ namespace _2_Padel
                 switch (opcao)
                 {
                     case "1":
+                        Console.Clear();
                         Console.WriteLine("Cadastro de atleta");
                         Comunicacao.cadastrarAtleta(listaAtletas);
                         //Persistencia.gravarAtleta(listaAtletas);
                         break;
                     case "2":
+                        Console.Clear();
                         Console.WriteLine("Listagem de atletas");
                         Comunicacao.listarAtletas(listaAtletas);
 
                         break;
                     case "3":
+                        Console.Clear();
                         Console.WriteLine("Remoção de atleta");
                         Comunicacao.removerAtleta(listaAtletas);
                         //Persistencia.gravarAtleta(listaAtletas);

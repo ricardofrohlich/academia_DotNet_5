@@ -20,13 +20,16 @@ public class Pessoa
         this.Email = email;
     }
 
-    public string idade() 
+    public int idade() 
     {
         //pegar a data atual, no mínimo o ano
         //pegar o ano de nascimento
+        string[] vetor = this.DataNascimento.ToString().Split('/');
+        int anoNascimento = int.Parse(vetor[2]);
+        int anoAtual = DateTime.Now.Year;
 
         //retornar o ano atual - ano de nascimento
-        return "";
+        return anoAtual - anoNascimento;
     }
 
     public string sobrenome()
@@ -58,5 +61,4 @@ public class Pessoa
         }
         return -1;
     }
-
 }

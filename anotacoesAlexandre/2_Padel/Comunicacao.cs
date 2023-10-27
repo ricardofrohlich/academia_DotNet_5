@@ -12,8 +12,11 @@ public class Comunicacao
 
         bool emailOK;
 
-        Console.Write("Informe o email: ");
-        email = Console.ReadLine();
+        do
+        {
+            Console.Write("Informe um email válido: ");
+            email = Console.ReadLine();
+        } while (!Utilidades.EmailIsValid(email));
 
         //lista de atletas
         //[{nome,email,dataNascimento,posicao,categoria}, {}, {}, {}]
@@ -59,7 +62,7 @@ public class Comunicacao
     {
         foreach (var atleta in lista)
         {
-            Console.WriteLine("Atleta: " + atleta.sobrenome() + " - " + atleta.PosicaoQuadra + ". Categoria: " + atleta.Categoria);
+            Console.WriteLine("Atleta: " + atleta.sobrenome() + ". Idade: " + atleta.idade() + ". Posição: " + atleta.PosicaoQuadra + ". Categoria: " + atleta.Categoria);
         }
     }
 
