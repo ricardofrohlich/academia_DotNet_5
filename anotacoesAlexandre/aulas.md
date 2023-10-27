@@ -14,7 +14,7 @@
         idade()
 
     Classe AtletaPadel : Pessoa
-        maoDeJogo string (esquerda ou direita)
+        posicaoQuadra string (esquerda ou direita)
         categoria string (open, 2a, 3a, 4a, 5a)
         getters/setters
 
@@ -22,14 +22,7 @@
         registroConselho : string
         clube : string
 
-    Menu Padel
-        1 - Cadastrar atleta
-        2 - Listar atletas
-        3 - Remover atleta
-        4 - Cadastrar treinador
-        5 - Listar treinadores
-        6 - Remover treinador
-        Opção: 
+    
 
 
     Necessidade de 2 listas. Uma para atletas, outra para treinadores.
