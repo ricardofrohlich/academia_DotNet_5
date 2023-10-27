@@ -39,7 +39,7 @@ public class Comunicacao
                     Console.WriteLine("Data inválida!");
                     emailOK = false;
                 }
-            } while (emailOK = false);
+            } while (emailOK == false);
 
             Console.Write("Posição na quadra [direita ou esquerda]: ");
             posicao = Console.ReadLine().ToUpper();
