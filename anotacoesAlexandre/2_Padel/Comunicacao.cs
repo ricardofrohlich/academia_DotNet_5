@@ -65,6 +65,12 @@ public class Comunicacao
 
     public static void removerAtleta(List<Atleta> lista)
     {
+        if (lista.Count == 0)
+        {
+            Console.WriteLine("Lista vazia!!");
+            return;
+        }
+
         string pesquisa;
         Console.Write("Informe parte do nome ou o email: ");
         pesquisa = Console.ReadLine();
