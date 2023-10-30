@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Aula 1 de HTML</title>
+        <!-- <style type="text/css">
+            body
+            {
+                background-color: green;
+            }
+
+            p
+            {
+                color: yellow;
+            }
+        </style> -->
+
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <!-- <script>
+            var teste = "Hello World!";
+            teste = 5;
+            alert(teste);
+        </script> -->
+
+        <script src="javascript.js"></script>
+
+    </head>
+     <body ><!-- style="background-color: green;" -->
+        <header>
+            
+            <h1>Cabeçalho</h1>
+            <h2 align="left" >Cabeçalho</h2>
+            <h3 align="right">Cabeçalho</h3>
+            <h4>Cabeçalho</h4>
+            <h5>Cabeçalho</h5>
+            <h6>Cabeçalho</h6>
+
+            <button onclick="alert('Obrigado por ter clicado!');">Clique aqui!</button>
+            <button onclick="minhaFuncao();">Clique aqui tbm!</button>
+            <input type="text" onfocusout="alert('saindo do campo');" />
+            <nav>
+                <ul>
+                    <li><a href="pagina2.html">Página 2</a></li>
+                    <li><a href="https://www.ufn.edu.br" target="_blank" >UFN</a></li>
+                    <li><a href="pagina3.html">Item 3</a></li>
+                </ul>
+
+                <ol class="paragrafo">
+                    <li id="item">item 1</li>
+                    <li>item 2</li>
+                    <li>item 3</li>
+                </ol>
+            </nav>
+
+        </header>
+
+        <hr>
+
+        <section id="posts">
+            <article id="post1">
+                <header>
+                    <h2>Título do post 1</h2>
+                </header>
+
+                <!-- <font face="Courier" size="3" color="green">
+                    <p>
+                        Lorem ipsum <i>dolor</i> sit amet, <b>consectetur</b> adipiscing <strong>elit</strong>. Sed semper maximus justo, quis venenatis risus viverra eu. In consectetur volutpat sapien. Integer ut suscipit libero. Maecenas sit amet turpis venenatis, porta tellus nec, porttitor turpis. Etiam vel sollicitudin risus, vitae rhoncus lectus. Morbi suscipit blandit sagittis. Praesent porta vel eros vel hendrerit. Fusce ipsum libero, tempor in ornare ac, mollis vel ipsum. Proin facilisis vestibulum hendrerit. Donec vestibulum vitae lorem et fringilla. Curabitur nec porta ipsum. Sed congue lectus lorem. Donec ultricies consequat nunc, nec molestie ex luctus in. Sed non elit id lorem mollis gravida placerat vel enim. Aenean interdum consectetur velit dignissim fringilla. Mauris ac aliquet nibh, sit amet porttitor quam.
+                    </p>
+                </font>  -->
+
+                <p>
+                    Lorem ipsum <i>dolor</i> sit amet, <b>consectetur</b> adipiscing <strong>elit</strong>. Sed semper maximus justo, quis venenatis risus viverra eu. In consectetur volutpat sapien. Integer ut suscipit libero. Maecenas sit amet turpis venenatis, porta tellus nec, porttitor turpis. Etiam vel sollicitudin risus, vitae rhoncus lectus. Morbi suscipit blandit sagittis. Praesent porta vel eros vel hendrerit. Fusce ipsum libero, tempor in ornare ac, mollis vel ipsum. Proin facilisis vestibulum hendrerit. Donec vestibulum vitae lorem et fringilla. Curabitur nec porta ipsum. Sed congue lectus lorem. Donec ultricies consequat nunc, nec molestie ex luctus in. Sed non elit id lorem mollis gravida placerat vel enim. Aenean interdum consectetur velit dignissim fringilla. Mauris ac aliquet nibh, sit amet porttitor quam.
+                </p>
+                <!-- <center></center> -->
+                    <p class="minhaClasse">
+                        Nam blandit <u>euismod</u> augue, eu <s>accumsan</s> neque. <em>Nunc</em> dapibus, eros eu sollicitudin viverra, est mauris laoreet sem, non sagittis sem sapien cursus magna. Maecenas sit amet sodales sapien. Proin molestie massa eu mi rutrum mollis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque commodo ornare luctus. Quisque quis magna ut est elementum maximus. Duis id auctor dui. Praesent ac elit nec metus venenatis rutrum ac eu leo. Duis accumsan eu neque pharetra consequat. Aliquam tincidunt viverra nulla. Praesent tempor tellus dapibus feugiat scelerisque. Suspendisse iaculis, orci a aliquet dapibus, dolor ante bibendum tortor, in faucibus nisi sapien nec tellus. Nullam porttitor libero ut tortor tempor, et vulputate lectus fringilla.
+                    </p>
+                <aside>
+                    PROPAGANDA
+                </aside>
+
+                Nome:
+                <input type="text" id="nome" onfocusout="mostrarConteudo();" />
+                
+
+                <button onclick="alterarParagrafo()">Alterar</button>
+                <p id="paragrafo2" class="minhaClasse">
+                    Donec bibendum <sub>justo</sub> vitae <sup>ipsum</sup> aliquam viverra. Praesent rutrum magna sem, at ullamcorper lorem auctor id. Vivamus elementum non metus in auctor. Fusce ac metus diam. Sed sapien purus, interdum in lacus eu, aliquet tincidunt arcu. Nullam egestas sapien in enim commodo congue. Sed tincidunt rutrum vestibulum. Quisque vel feugiat lorem. Praesent aliquam mauris sit amet enim luctus tincidunt. Aenean pharetra ultrices urna fermentum varius.
+                </p>
+
+                <footer>
+                    Rodapé do post 1 - Quem postou? quando postou? Curtidas e comentários?
+                </footer>
+            </article>
+
+            <div id="div1" class="classDiv">
+                
+            </div>
+
+            <form name="nome" action="url" method="verbo HTTP ou method : POST/GET" >
+                <textarea name="text"></textarea>
+                <br />
+                <input placeholder="digite o seu nome" name="nome" type="text" />
+                <br />
+                <input name="numero" type="number" />
+                <br />
+                <input name="email" type="email" />
+                <br />
+                <input name="cor" type="color" />
+                <br />
+                <input name="data" type="date" />
+                <br />
+                <input name="datahora" type="datetime-local" />
+                <br />
+                <input name="check" type="checkbox" />
+                <br />
+                <input name="radio" type="radio" />
+                <br />
+                <input name="file" type="file" />
+                <br />
+                <input name="img" type="image" />
+                <br />
+                <input name="senha" type="password" />
+                <br />
+                <input name="range" type="range" />
+                <br />
+                <input name="url" type="url" />
+                <br />
+            </form>
+
+            <hr>
+
+            <article id="post2">
+                <header>
+                    <h2>Título do post 2</h2>
+                </header>
+
+                <p align="justify" class="paragrafo">
+                    Lorem ipsum dolor sit amet, <span class="meuSpan">consectetur adipiscing</span> elit. Sed semper maximus justo, quis venenatis risus viverra eu. In consectetur volutpat sapien. Integer ut suscipit libero. Maecenas sit amet turpis venenatis, porta tellus nec, porttitor turpis. Etiam vel sollicitudin risus, vitae rhoncus lectus. Morbi suscipit blandit sagittis. Praesent porta vel eros vel hendrerit. Fusce ipsum libero, tempor in ornare ac, mollis vel ipsum. Proin facilisis vestibulum hendrerit. Donec vestibulum vitae lorem et fringilla. Curabitur nec porta ipsum. Sed congue lectus lorem. Donec ultricies consequat nunc, nec molestie ex luctus in. Sed non elit id lorem mollis gravida placerat vel enim. Aenean interdum consectetur velit dignissim fringilla. Mauris ac aliquet nibh, sit amet porttitor quam.
+                </p>
+                <!-- <img src="~/img/x.png" alt="Figura do site" width="250" /> VOLTA para o diretorio raiz-->
+                <!-- <img src="../img/x.png" alt="Figura do site" width="250" /> VOLTA uma pasta -->
+                <img src="img/x.png" alt="Figura do site" width="250" />
+                <p class="paragrafo">
+                    Nam blandit euismod augue, eu accumsan neque. Nunc dapibus, eros eu sollicitudin viverra, est mauris laoreet sem, non sagittis sem sapien cursus magna. Maecenas sit amet sodales sapien. Proin molestie massa eu mi rutrum mollis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque commodo ornare luctus. Quisque quis magna ut est elementum maximus. Duis id auctor dui. Praesent ac elit nec metus venenatis rutrum ac eu leo. Duis accumsan eu neque pharetra consequat. Aliquam tincidunt viverra nulla. Praesent tempor tellus dapibus feugiat scelerisque. Suspendisse iaculis, orci a aliquet dapibus, dolor ante bibendum tortor, in faucibus nisi sapien nec tellus. Nullam porttitor libero ut tortor tempor, et vulputate lectus fringilla.
+                </p>
+                <aside>
+                    PROPAGANDA
+                </aside>
+                <p>
+                    Donec bibendum justo vitae ipsum aliquam viverra. Praesent rutrum magna sem, at ullamcorper lorem auctor id. Vivamus elementum non metus in auctor. Fusce ac metus diam. Sed sapien purus, interdum in lacus eu, aliquet tincidunt arcu. Nullam egestas sapien in enim commodo congue. Sed tincidunt rutrum vestibulum. Quisque vel feugiat lorem. Praesent aliquam mauris sit amet enim luctus tincidunt. Aenean pharetra ultrices urna fermentum varius.
+                </p>
+
+                <dl>
+                    <dt>Item 1</dt>
+                    <dd>Definição do que é o item 1</dd>
+                    <dt>Laranja</dt>
+                    <dd>é uma cor, mas tbm pode ser uma fruta</dd>
+                    <dt>Item 3</dt>
+                    <dd>Definição do item 3</dd>
+                </dl>
+
+                <details>
+                    <summary>Epcot Center</summary>
+                    <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+                </details>
+
+                <footer>
+                    Rodapé do post 2 - Quem postou? quando postou? Curtidas e comentários?
+                </footer>
+            </article>
+        </section>
+
+        <hr>
+
+        <section>
+            <h1 id="titulo">TITULO</h1>
+            <p id="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. In ad expedita perferendis fugit facere nemo molestias dicta, odio minus dolore perspiciatis eius vel corrupti officiis cumque vero iste dolorem ipsa?</p>
+        </section>
+
+        <hr>
+
+        <section>
+            <div id="div1">Lorem ipsum dolor</div>
+            <div id="div2">Lorem ipsum dolor</div>
+            <div id="div3">Lorem ipsum dolor</div>
+            <div id="div4">Lorem ipsum dolor</div>
+        </section>
+
+        <section>
+            <div id="div_1"></div>
+            <div id="div_2"></div>
+            <div id="div_3"></div>
+            <div id="div_4"></div>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Vinhos</h2>
+            <p>Uvas para vinhos brancos</p>
+            <ul>
+                <li><p class="branco">Riesling</p></li>
+                <li><p class="branco">Chardonnay</p></li>
+                <li><p class="branco">Pinot Blanc</p></li>
+            </ul>
+            <p>Uvas para vinhos tintos</p>
+            <ul>
+                <li><p class="tinto">Cabernet</p></li>
+                <li><p class="tinto">Merlot</p></li>
+                <li><p class="tinto">Shiraz</p></li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="sidebar">
+            <nav>
+                itens do menu lateral
+            </nav>
+        </section>
+
+        <hr>
+
+        <table border="1">
+            <tr>
+                <td>Linha 1, coluna 1</td>
+                <td>Linha 1, coluna 2</td>
+                <td>Linha 1, coluna 3</td>
+            </tr>
+            <tr>
+                <td>Linha 2, coluna 1</td>
+                <td>Linha 2, coluna 2</td>
+                <td>Linha 2, coluna 3</td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <footer>
+            Rodapé
+        </footer>
+    </body>
+</html>
+
