@@ -1,5 +1,28 @@
 # Organização das aulas do Alexandre
 
+## Aula 03/11/2023
+
+1) Chamada
+2) Desafio do amigo secreto
+    - Criar um menu para gerenciar amigos (nomes e email)
+        - Cadastrar amigo
+        - Listar amigos
+        - Gerar amigo secreto
+    
+    - Para o desafio usar ou criar:
+        1) classe Amigo: nome e email (getter e setter); método construtor;
+        2) lista de amigos
+        3) arquivo amigos.csv (com dados dos amigos, linha a linha, com os dados separados por ;)
+        4) arquivo secretos.csv (com nome de um amigo e seu respectivo amigo secreto, separados por ;)
+
+
+3) Conteúdo da aula:
+    - Classe StreamReader para ler de arquivos
+    - Classe StreamWriter para escrever em arquivos
+    - Polimorfismo de reescrita de métodos herdados
+    - Ordenação e embaralhamento de listas
+
+
 ## Aula 27/10/2023
 
 1) Chamada
