@@ -19,7 +19,7 @@
 3) Conteúdo da aula:
     - Classe StreamReader para ler de arquivos
     - Classe StreamWriter para escrever em arquivos
-    - Polimorfismo de reescrita de métodos herdados
+    - Polimorfismo de reescrita de métodos herdados (Equals, ToString, GetHash, ...)
     - Ordenação e embaralhamento de listas
 
 
