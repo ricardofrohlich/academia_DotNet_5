@@ -41,7 +41,7 @@ namespace _4_Arquivo
             try
             {
                 StreamReader leitor = new StreamReader(nomeArquivo, Encoding.UTF8);
-                string[] vetorLinha; //[nome, email, dataNascimento]
+                string[] vetorLinha; //[nome, email]
                 string linha;
                 do
                 {
@@ -62,13 +62,17 @@ namespace _4_Arquivo
             try
             {
                 StreamReader leitor = new StreamReader(nomeArquivo, Encoding.UTF8);
-                string[] vetorLinha; //[nome, email, dataNascimento]
+                string[] vetorLinha; //[nome, email]
                 string linha;
+                Pessoa tmp;
                 do
                 {
                     linha = leitor.ReadLine();//Leandro Di Nardo Lazarin;lazarin@ufn.edu.br;12/12/1990
                     vetorLinha = linha.Split(";"); //[Leandro Di Nardo Lazarin, lazarin@ufn.edu.br, 12/12/1990]
-                    lista.Add(new Pessoa(vetorLinha[0], vetorLinha[1], vetorLinha[2]));
+                    tmp = new Pessoa(vetorLinha[0], vetorLinha[1]);
+                    if (!lista.Contains(tmp)) {
+                        lista.Add( tmp );
+                    }
                 } while (!leitor.EndOfStream);
                 leitor.Close();
             }
@@ -94,7 +98,7 @@ namespace _4_Arquivo
                                                                        //StreamWriter escritor = new StreamWriter(nomeArquivo, append:true); //possibilidade de adionar dados no arquivo
                 foreach (var item in lista)
                 {
-                    escritor.WriteLine(item.Nome + ";" + item.Email + ";" + item.DataNascimento);
+                    escritor.WriteLine(item.Nome + ";" + item.Email );
                     escritor.Flush();
                 }
                 escritor.Close();
@@ -116,7 +120,7 @@ namespace _4_Arquivo
             {
                 StreamWriter escritor = new StreamWriter(nomeArquivo, append: true);
 
-                escritor.WriteLine(pessoa.Nome + ";" + pessoa.Email + ";" + pessoa.DataNascimento);
+                escritor.WriteLine(pessoa.Nome + ";" + pessoa.Email );
 
                 escritor.Close();
             }
@@ -124,6 +128,22 @@ namespace _4_Arquivo
             {
                 Console.WriteLine("Problemas com arquivo");
             }            
+        }
+
+        public static void gravarSimples(Pessoa p, string nomeArquivo) {
+            try
+            {
+                StreamWriter escritor = new StreamWriter(nomeArquivo, append: true);
+
+                escritor.WriteLine(p.Nome + ";" + p.Email );
+
+                escritor.Close();
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Problemas com arquivo");
+            }            
+
         }
     }
 }

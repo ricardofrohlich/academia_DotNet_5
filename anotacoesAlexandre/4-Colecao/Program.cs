@@ -15,10 +15,14 @@ if (lista.Contains(aluno)) {
 
 lista.Sort();
 
+string nome;
+
+
 //lista.Sort((a, b) => a.Id.CompareTo(b.Id));
 //lista = lista.OrderBy(x=> Random.Shared.Next()).ToList();
 
 foreach (var item in lista)
 {
     Console.WriteLine(item.Id + "  " + item.Nome);
+    
 }
