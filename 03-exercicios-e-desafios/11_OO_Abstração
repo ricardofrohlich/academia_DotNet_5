@@ -18,3 +18,35 @@ Implemente os métodos "CalcularArea()" e "CalcularPerimetro()" para cada uma de
 5 - Crie uma classe abstrata "Produto" com propriedades para "Nome", "Preço" e um método abstrato "CalcularDesconto". Crie classes derivadas para diferentes tipos de produtos, como "Livro" e "Eletrônico", que implementam o método "CalcularDesconto" de acordo com as regras específicas de desconto para cada tipo de produto.
 Livro – 5% de desconto
 Eletrônico  - 12.5% de desconto
+
+6 - Crie uma classe "ContaBancaria" com propriedades para "Saldo" e métodos "Depositar" e "Sacar". 
+    
+Crie classes derivadas, como "ContaCorrente" e "ContaPoupanca", que implementam os métodos de depósito e saque de acordo com as regras de cada tipo de conta.
+Regras: 
+i) Para sacar na conta poupança, cada saque tem um custo de 0,10 
+ii) para depositar na conta poupança, não existe custo
+iii) Para sacar na conta corrente somente o primeiro saque é gratuito e o restante tem tem um custo de 0,05 centavos 
+iv) Para depositar na conta corrente não existe custo porém deve apresentar a mensgem na tela do valor do saldo.
+
+7 -
+ a) Crie uma classe base chamada "Veiculo" com propriedades como "Marca" e "Ano."
+ b) Crie classes derivadas como "Carro" e "Moto" que herdem de "Veiculo" e adicionem propriedades específicas, como "Número de Portas" para carros e "Cilindrada" para motos.
+ c) Crie uma lista de Veículos que inclui instâncias de "Veiculo", "Carro" e "Moto." Use um loop para percorrer a lista e chamar um método "Apresentar" que exibe informações sobre cada veículo, demonstrando o polimorfismo.
+ d) Modifique a classe "Veiculo" para ter um método virtual "Apresentar" que exiba informações gerais do veículo.
+ e) Sobrescreva o método "Apresentar" nas classes derivadas para incluir informações específicas, como o número de portas para carros ou a cilindrada para motos.
+
+8 - Crie uma classe chamada "Calculadora" com métodos para somar, subtrair, multiplicar e dividir números. Implemente sobrecargas desses métodos para aceitar diferentes números de argumentos e tipos, como inteiros e decimais.
+
+9 -
+a) Crie uma classe base "Pessoa" com propriedades como "Nome" e "Idade." 
+b) Crie uma classe derivada "Estudante" que herde de "Pessoa" e adicione propriedades específicas, como "Matricula" e "Curso."
+c) Certifique-se de que a classe derivada chame o construtor da classe base
+
+10 - 
+a) Crie uma classe base "Funcionario" com propriedades como "Nome" e "Salario."
+b) Crie classes derivadas, como "Gerente" e "Desenvolvedor," que herdem de "Funcionario" e forneçam implementações específicas para calcular bônus ou mostrar funções.
+
+11 - 
+a) Crie uma classe "Produto" com propriedades como "Nome," "Preço" e "Estoque."
+b) Implemente construtores sobrecarregados que permitam criar instâncias de produtos de diferentes maneiras, como especificando apenas o nome ou especificando todas as propriedades.
+
