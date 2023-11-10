@@ -21,7 +21,7 @@
 
 3) Conteúdo da aula
     - Windows Forms
-        - Componentes gráficos são classes e objetos: propriedade e eventos
+        - Componentes gráficos são classes e objetos: propriedades (atributos) e eventos (métodos)
         - Principais componentes: label, textBox, button, listView, menu
 
         - Propriedades de um componente: nome, texto, posição, tamanho (largura x altura), cores, editavel, visibilidade, ...
