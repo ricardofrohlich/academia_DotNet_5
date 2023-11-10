@@ -1,5 +1,33 @@
 # Organização das aulas do Alexandre
 
+## Aula 10/11/2023
+1) Chamada
+2) Desafio: Windows Form + Listas + Arquivo
+    Tendo como base o programa do Amigo Secreto, refatorá-lo para que funcione em um ambiente gráfico Windows Forms
+        A interface de comunicação é livre, ou seja, cada um pode organizar a forma de se comunicar com o usuário. Porém, todas
+        as funcionalidades precisam estar presentes.
+            - Cadastrar amigo
+            - Listar amigos
+            - Gerar amigo secreto
+    
+            - Para o desafio usar ou criar:
+                1) classe Amigo: nome e email (getter e setter); método construtor;
+                2) lista de amigos
+                3) arquivo amigos.csv (com dados dos amigos, linha a linha, com os dados separados por ;)
+                    Gustavo Castagna;gus.castagna@ufn.edu.br
+                    Alexandre Nonato;alex.nonato@ufn.edu.br
+                4) arquivo secretos.csv (com nome de um amigo e seu respectivo amigo secreto, separados por ;)
+                    Gustavo Castagna;gus.castagna@ufn.edu.br;Alexandre Nonato;alex.nonato@ufn.edu.br
+
+3) Conteúdo da aula
+    - Windows Forms
+        - Componentes gráficos são classes e objetos: propriedade e eventos
+        - Principais componentes: label, textBox, button, listView, menu
+
+        - Propriedades de um componente: nome, texto, posição, tamanho (largura x altura), cores, editavel, visibilidade, ...
+        - Eventos de um componente: mouse (passar, clicar, ...) e teclado (pressionar, soltar,)
+
+
 ## Aula 03/11/2023
 
 1) Chamada
@@ -32,8 +60,7 @@
         Abrir para appendar no final
     - Polimorfismo de reescrita de métodos herdados (Equals, ToString, GetHash, ...)
     - Ordenação e embaralhamento de listas
-
-
+v
 4)
     DESENVOLVIMENTO DE SISTEMAS
     Memória
@@ -43,12 +70,8 @@
         - Secundárias (HD, SSD, Flash, ...) - armazenamento persistente
             arquivo: nome, tipo, endereço
 
-
-
         Programando sistemas que manipulam arquivos (variados' banco de dados; csv; json; xml, ...)
             - Na memória principal é necessário um procurador (variável) que represente o arquivo em memória
-
-
 
 
 ## Aula 27/10/2023
