@@ -3,15 +3,31 @@
 ## Aula 21/11/2023
 1) Chamada
 2) Certificado Digital, Assinatura Digital e Criptografia
-    - criptografia simétrica: chave única e privada 
+        
+        Certificação digital( Assinatura Digital( Criptografia() ) )
+            - entidade de reconhecimento de assinaturas digitais
+            - assinatura digital é um código ou um símbolo
+            - criptografia -> chave hash -> número que garante que um documento ou um texto ou um arquivo é assinado
+
+            chave - skrcsbftr
+                    alexandre
+            funcao(chave) - shift da mao esquerda uma tecla para direita
+                            shift da mao direita uma tecla para esquerda
+
+        principio da criptografia é embaralhar/codificar a mensagem original -> enviar -> desembaralha/decodifica a mensagem original
+            codificar -> decodificar
+                 função matemática - 8 bits, 16 bits, 32 bits, 64 bits, 128 bits, 256 bits 
+
+    - criptografia simétrica: chave única e privada - melhor desempenho 
         DES
         3DES
         AES: Winzip, WhatsApp, ...
 
-    - criptografia assimétrica: chave privada e chave pública
+    - criptografia assimétrica: chave privada e chave pública - mais segura, porém mais lenta
         RSA
 
 3) Códigos exemplos: Códigos com criptografia simétrica e assimétrica
+
 4) Assinatura Digital
 - https://www.youtube.com/watch?v=UlRCVihN3pE
 - https://www.youtube.com/watch?v=rBa1kj6K_5M

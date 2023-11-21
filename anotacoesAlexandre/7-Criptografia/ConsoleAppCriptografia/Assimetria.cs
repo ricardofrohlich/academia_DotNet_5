@@ -10,7 +10,6 @@ namespace ConsoleAppCriptografia
 {
     public class Assimetrica
     {
-
         private static RSACryptoServiceProvider csp = new RSACryptoServiceProvider(2048);
         private RSAParameters privateKey;
         private RSAParameters publicKey;
