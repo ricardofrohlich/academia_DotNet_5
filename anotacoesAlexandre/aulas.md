@@ -1,5 +1,17 @@
 # Organização das aulas do Alexandre
 
+## Aula 21/11/2023
+1) Chamada
+2) Certificado Digital, Assinatura Digital e Criptografia
+    - criptografia simétrica
+    - criptografia assimétrica
+
+3) Códigos exemplos: Códigos com criptografia simétrica e assimétrica
+
+4) Assinatura Digital
+- https://www.youtube.com/watch?v=UlRCVihN3pE
+- https://www.youtube.com/watch?v=rBa1kj6K_5M
+
 ## Aula 14/11/2023
 1) Chamada
 2) Vídeo auxiliar para a construção do desafio (windows forms + OO + lista + arquivos)
