@@ -1,5 +1,13 @@
 # Organização das aulas do Alexandre
 
+## Aula 14/11/2023
+1) Chamada
+2) Vídeo auxiliar para a construção do desafio (windows forms + OO + lista + arquivos)
+    - https://www.youtube.com/watch?v=JgBqsIffWdU
+3) Trabalhar no desafio
+
+
+
 ## Aula 10/11/2023
 1) Chamada
 2) Desafio: Windows Form + Listas + Arquivo
