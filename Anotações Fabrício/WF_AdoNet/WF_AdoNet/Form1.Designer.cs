@@ -32,11 +32,11 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.txbNome = new System.Windows.Forms.TextBox();
-            this.txbIdade = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txbIdade = new System.Windows.Forms.TextBox();
+            this.txbNome = new System.Windows.Forms.TextBox();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -63,7 +63,7 @@
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 101);
+            this.dataGridView1.Location = new System.Drawing.Point(16, 85);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowTemplate.Height = 25;
@@ -84,29 +84,14 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Cadastro";
             // 
-            // button2
+            // label2
             // 
-            this.button2.Location = new System.Drawing.Point(36, 134);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 0;
-            this.button2.Text = "Salvar";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // txbNome
-            // 
-            this.txbNome.Location = new System.Drawing.Point(36, 45);
-            this.txbNome.Name = "txbNome";
-            this.txbNome.Size = new System.Drawing.Size(100, 23);
-            this.txbNome.TabIndex = 1;
-            // 
-            // txbIdade
-            // 
-            this.txbIdade.Location = new System.Drawing.Point(36, 88);
-            this.txbIdade.Name = "txbIdade";
-            this.txbIdade.Size = new System.Drawing.Size(100, 23);
-            this.txbIdade.TabIndex = 2;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(36, 70);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(36, 15);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Idade";
             // 
             // label1
             // 
@@ -117,14 +102,29 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "Nome";
             // 
-            // label2
+            // txbIdade
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(36, 70);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(36, 15);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Idade";
+            this.txbIdade.Location = new System.Drawing.Point(36, 88);
+            this.txbIdade.Name = "txbIdade";
+            this.txbIdade.Size = new System.Drawing.Size(100, 23);
+            this.txbIdade.TabIndex = 2;
+            // 
+            // txbNome
+            // 
+            this.txbNome.Location = new System.Drawing.Point(36, 45);
+            this.txbNome.Name = "txbNome";
+            this.txbNome.Size = new System.Drawing.Size(100, 23);
+            this.txbNome.TabIndex = 1;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(36, 134);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 0;
+            this.button2.Text = "Salvar";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form1
             // 

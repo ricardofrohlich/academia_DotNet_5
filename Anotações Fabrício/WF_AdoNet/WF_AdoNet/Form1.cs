@@ -11,10 +11,21 @@ namespace WF_AdoNet
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Banco bd = new Banco();
             DataTable dt = new DataTable();
+            Pessoa p = new Pessoa();
 
-            dt = bd.executaConsulta("select * from pessoas");
+            if (String.IsNullOrEmpty(textBox1.Text))
+            {
+                dt = p.buscaPessoas();
+            }
+            else
+            {
+                p.id = int.Parse(textBox1.Text);
+                //p = p.buscaPessoaByIdDR();
+                //MessageBox.Show(p.nome);
+                dt = p.buscaPessoaById();
+            }
+
 
             dataGridView1.DataSource = dt;
         }
@@ -25,7 +36,7 @@ namespace WF_AdoNet
             p.nome = txbNome.Text;
             p.idade = int.Parse(txbIdade.Text);
 
-            if(p.gravar())
+            if (p.gravar())
             {
                 MessageBox.Show("Cadastrado com sucesso!");
 
