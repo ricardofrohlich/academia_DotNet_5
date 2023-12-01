@@ -4,11 +4,12 @@
     - Chamada
     - Desafio
     - Xamarin
+        - Conhecendo Xamarin - https://youtu.be/rtuywS2fG2Y
+        - Como instalar Xamarin no Windows e MacOS - https://learn.microsoft.com/en-us/xamarin/get-started/installation/?pivots=windows-vs2022
+        - Tutoriais Xamarin (básico ao avançado) - https://youtube.com/playlist?list=PLfvOpw8k80WqDChdm1cdlWx0FIR9ILtcm 
+        
         - Site da Microsoft - https://learn.microsoft.com/pt-br/xamarin/get-started/what-is-xamarin
         - Documentação Xamarin - https://learn.microsoft.com/pt-br/xamarin/
-        - Conhecendo Xamarin - https://youtu.be/rtuywS2fG2Y
-        - Tutoriais Xamarin (básico ao avançado) - https://youtube.com/playlist?list=PLfvOpw8k80WqDChdm1cdlWx0FIR9ILtcm 
-        - Como instalar Xamarin no Windows e MacOS - https://learn.microsoft.com/en-us/xamarin/get-started/installation/?pivots=windows-vs2022
 
         - Foco
             Xamarin.Android
@@ -21,6 +22,7 @@
                     - App.xaml.cs -> gestor principal da aplicação (independente de plataforma)
                 - Page - https://learn.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/controls/pages
             Xamarin.Essentials
+
 
 ## Aula 21/11/2023
 1) Chamada
