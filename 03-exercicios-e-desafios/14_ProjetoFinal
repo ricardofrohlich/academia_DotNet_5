@@ -19,7 +19,7 @@ Aplique boas práticas de programação, com ênfase em orientação a objetos e
 Cada aluno é responsável por sua trajetória de aprendizado durante o desenvolvimento do projeto. O foco está na aplicação prática dos conhecimentos adquiridos e na superação de desafios individuais.
 
 A decisão do projeto deve ser repassada aos professores até o dia 15/12. Neste dia, você deve passar ao professor o escopo do projeto e quais tecnologias vai utilizar, por exemplo:
-• Desenvolvimento de um ERP para um bar utilizando ASP.NET Core MVC + Entity Framework
+• Desenvolvimento de um ERP para um bar utilizando ASP.NET Core MVC + Entity Framework. Cadastro de produtos, emissão de venda.. etc
 • Desenvolvimento de um sistema de gerenciamento de atividades utilizando REST API e consumindo-a utilizando Angular Framework.
 
 Avaliação Individual:
@@ -28,9 +28,10 @@ O desempenho individual será avaliado com base na originalidade, inovação, qu
 Apresentação:
 A apresentação final deste projeto ocorrerá no dia 11/01 e cada aluno terá 3 minutos para apresentar. Foque em pontos principais neste momento.
 
-Além desta apresentação, cada aluno deverá gravar um vídeo com até 10 minutos contendo uma apresentação mais detalhada do projeto desenvolvido.
+Além desta apresentação, cada aluno deverá gravar um vídeo com até 10 minutos contendo uma apresentação mais detalhada do projeto desenvolvido (em desenvolvimento).
 
-Mesmo sem ter finalizado o projeto ainda (pois o prazo final é dia 11/01), neste vídeo, deve ser apresentado como foi desenvolvido o sistema, quais os desafios encontrados, quais as dificuldades e deve ser efetuado testes do sistema.
+Mesmo sem ter finalizado o projeto ainda (pois o prazo final é dia 11/01), neste vídeo, deve ser apresentado como foi desenvolvido (está sendo desenvolvido) o sistema, quais os desafios encontrados, quais as dificuldades e deve ser efetuado testes do sistema (do que 
+ vocês já possuem pronto).
 
-O prazo para entrega deste vídeo é até o dia 03/01, portanto, grave um vídeo com o que você tem desenvolvido até este dia e ainda vocês terão até o dia 11/01 para finalizar o sistema.
+O prazo para entrega deste vídeo é até o dia 03/01, portanto, grave um vídeo com o que você tem desenvolvido até este dia e ainda vocês terá até o dia 11/01 para finalizar o sistema.
 Junto com o vídeo, já deixe disponível o código do projeto no github para que os avaliadores possam acessar.
