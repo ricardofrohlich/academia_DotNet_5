@@ -1,0 +1,36 @@
+Objetivo:
+Desenvolver um projeto final abrangente em C# que permita aos alunos aplicar os conhecimentos adquiridos durante o curso.
+
+Cada aluno terá a oportunidade de escolher uma temática para o projeto, visando criar uma solução completa com funcionalidades e um levantamento próximo da utilização real.
+Este projeto é uma chance valiosa para demonstrar o aprendizado individual e pode ser um diferencial ter um projeto deste tipo no seu portfólio.
+
+Instruções:
+Cada aluno deverá selecionar uma temática para o seu projeto final.
+Pode ser um sistema de gerenciamento, uma aplicação para o mercado, uma ferramenta prática, entre outras opções.
+A escolha deve refletir os interesses e objetivos individuais dos alunos.
+
+O que deve ser desenvolvido?
+Desenvolva uma solução completa com funcionalidades que tornem o sistema útil e aplicável em um cenário próximo da utilização real. Considere uma interface intuitiva e casos de uso relevantes para a temática escolhida.
+
+Utilize tecnologias emergentes para aprimorar seu projeto. Pode incluir qualquer tecnologia inovadora que agregue valor à solução desenvolvida.
+
+Aplique boas práticas de programação, com ênfase em orientação a objetos e padrões de projetos. A clareza, organização e manutenibilidade do código serão consideradas na avaliação.
+
+Cada aluno é responsável por sua trajetória de aprendizado durante o desenvolvimento do projeto. O foco está na aplicação prática dos conhecimentos adquiridos e na superação de desafios individuais.
+
+A decisão do projeto deve ser repassada aos professores até o dia 15/12. Neste dia, você deve passar ao professor o escopo do projeto e quais tecnologias vai utilizar, por exemplo:
+• Desenvolvimento de um ERP para um bar utilizando ASP.NET Core MVC + Entity Framework
+• Desenvolvimento de um sistema de gerenciamento de atividades utilizando REST API e consumindo-a utilizando Angular Framework.
+
+Avaliação Individual:
+O desempenho individual será avaliado com base na originalidade, inovação, qualidade do código e efetividade da solução desenvolvida.
+
+Apresentação:
+A apresentação final deste projeto ocorrerá no dia 11/01 e cada aluno terá 3 minutos para apresentar. Foque em pontos principais neste momento.
+
+Além desta apresentação, cada aluno deverá gravar um vídeo com até 10 minutos contendo uma apresentação mais detalhada do projeto desenvolvido.
+
+Mesmo sem ter finalizado o projeto ainda (pois o prazo final é dia 11/01), neste vídeo, deve ser apresentado como foi desenvolvido o sistema, quais os desafios encontrados, quais as dificuldades e deve ser efetuado testes do sistema.
+
+O prazo para entrega deste vídeo é até o dia 03/01, portanto, grave um vídeo com o que você tem desenvolvido até este dia e ainda vocês terão até o dia 11/01 para finalizar o sistema.
+Junto com o vídeo, já deixe disponível o código do projeto no github para que os avaliadores possam acessar.
