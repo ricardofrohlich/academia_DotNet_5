@@ -1,0 +1,15 @@
+C:\Users\fabricio.londero\source\repos\CA_ConsumirAPI\CA_ConsumirAPI\bin\Debug\net6.0\CA_ConsumirAPI.exe
+C:\Users\fabricio.londero\source\repos\CA_ConsumirAPI\CA_ConsumirAPI\bin\Debug\net6.0\CA_ConsumirAPI.deps.json
+C:\Users\fabricio.londero\source\repos\CA_ConsumirAPI\CA_ConsumirAPI\bin\Debug\net6.0\CA_ConsumirAPI.runtimeconfig.json
+C:\Users\fabricio.londero\source\repos\CA_ConsumirAPI\CA_ConsumirAPI\bin\Debug\net6.0\CA_ConsumirAPI.dll
+C:\Users\fabricio.londero\source\repos\CA_ConsumirAPI\CA_ConsumirAPI\bin\Debug\net6.0\CA_ConsumirAPI.pdb
+C:\Users\fabricio.londero\source\repos\CA_ConsumirAPI\CA_ConsumirAPI\obj\Debug\net6.0\CA_ConsumirAPI.csproj.AssemblyReference.cache
+C:\Users\fabricio.londero\source\repos\CA_ConsumirAPI\CA_ConsumirAPI\obj\Debug\net6.0\CA_ConsumirAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fabricio.londero\source\repos\CA_ConsumirAPI\CA_ConsumirAPI\obj\Debug\net6.0\CA_ConsumirAPI.AssemblyInfoInputs.cache
+C:\Users\fabricio.londero\source\repos\CA_ConsumirAPI\CA_ConsumirAPI\obj\Debug\net6.0\CA_ConsumirAPI.AssemblyInfo.cs
+C:\Users\fabricio.londero\source\repos\CA_ConsumirAPI\CA_ConsumirAPI\obj\Debug\net6.0\CA_ConsumirAPI.csproj.CoreCompileInputs.cache
+C:\Users\fabricio.londero\source\repos\CA_ConsumirAPI\CA_ConsumirAPI\obj\Debug\net6.0\CA_ConsumirAPI.dll
+C:\Users\fabricio.londero\source\repos\CA_ConsumirAPI\CA_ConsumirAPI\obj\Debug\net6.0\refint\CA_ConsumirAPI.dll
+C:\Users\fabricio.londero\source\repos\CA_ConsumirAPI\CA_ConsumirAPI\obj\Debug\net6.0\CA_ConsumirAPI.pdb
+C:\Users\fabricio.londero\source\repos\CA_ConsumirAPI\CA_ConsumirAPI\obj\Debug\net6.0\CA_ConsumirAPI.genruntimeconfig.cache
+C:\Users\fabricio.londero\source\repos\CA_ConsumirAPI\CA_ConsumirAPI\obj\Debug\net6.0\ref\CA_ConsumirAPI.dll
