@@ -10,6 +10,13 @@
 2) Se necessário atualizar o instalador
 3) No instalador, Habilitar Desenvolvimento Mobile com .Net (se atual - Desenvolvimento Mobile Multiplataforma, lembrar de marcar no detalhes de instalação o Xamarin)
 
+### Ativar o acelerador Hipervisor no Windows
+1) Na barra de pesquisa do Windows -> digitar -> ativar ou desativar recursos do windows
+2) Habilitar dois itens
+    - Hyper V
+    - Windows Hypervisor Plataform
+3) Reinicializar o VS 2022 (algumas vezes, a máquina)
+
 # Passos para criar primeiro projeto Xamarin no VS 2022
 1) Na aba File -> New Project -> Cross Plataform -> Mobile App Xamarin.Forms
 2) Opção Blank
@@ -20,12 +27,6 @@
 6) Criar um emulador -> Nexus 5 com versão Android instalada
 7) Executar o emulador -> Direto no Play ou na aba Open Android Device Manager
 
-### Ativar o acelerador Hipervisor no Windows
-1) Na barra de pesquisa do Windows -> digitar -> ativar ou desativar recursos do windows
-2) Habilitar dois itens
-    - Hyper V
-    - Windows Hypervisor Plataform
-3) Reinicializar o VS 2022 (algumas vezes, a máquina)
 
 ### Primeiro projeto Multi plataforma (Android, IOS, Windows)
 
