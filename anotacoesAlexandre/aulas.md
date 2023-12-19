@@ -1,5 +1,10 @@
 # Organização das aulas do Alexandre
 
+## Aula 19/12/2023
+    - Chamada
+    - Descrição do projeto final
+    - Windows Forms + Serialização (XML, JSON e SOAP)
+
 ## Aula 15/12/2023
     - Chamada
     - Exercicios
