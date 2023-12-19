@@ -1,0 +1,17 @@
+[
+  {
+    "Nome": "Alexandre",
+    "DataNascimento": "1974-08-09T00:00:00-03:00",
+    "Cpf": "4234234234"
+  },
+  {
+    "Nome": "Carol",
+    "DataNascimento": "2006-08-09T00:00:00-03:00",
+    "Cpf": "12335667"
+  },
+  {
+    "Nome": "Pedro",
+    "DataNascimento": "2014-07-01T00:00:00-03:00",
+    "Cpf": "4235534234"
+  }
+]

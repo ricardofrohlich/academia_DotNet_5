@@ -5,12 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Threading.Tasks;
-using System.Windows.Forms;
+
 using System.Xml.Serialization;
 using System.Runtime.Serialization.Formatters.Soap;
 using Newtonsoft.Json;
 
-namespace _17_WinFormsApp_SerializadorJSON
+namespace _11_Terminal_Serializador
 {
     public class Serializador
     {
@@ -28,12 +28,12 @@ namespace _17_WinFormsApp_SerializadorJSON
 
                 procurador.Close();
 
-                MessageBox.Show("Sucesso para serializar com XML", "Alerta");
+                Console.WriteLine("Sucesso para serializar com XML", "Alerta");
 
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Erro: " + ex.Message);
+                Console.WriteLine("Erro: " + ex.Message);
             }
         }
 
@@ -57,11 +57,11 @@ namespace _17_WinFormsApp_SerializadorJSON
                     resposta = resposta + i.Nome + "\n";
                 }
 
-                MessageBox.Show(resposta, "Alerta");
+                Console.WriteLine(resposta);
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Erro: " + ex.Message);
+                Console.WriteLine("Erro: " + ex.Message);
             }
         }
 
@@ -76,12 +76,12 @@ namespace _17_WinFormsApp_SerializadorJSON
                 serializadorSOAP.Serialize(procurador, lista);
                 procurador.Close();
 
-                MessageBox.Show("Sucesso para serializar com SOAP", "Alerta");
+                Console.WriteLine("Sucesso para serializar com SOAP", "Alerta");
 
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Erro: " + ex.Message);
+                Console.WriteLine("Erro: " + ex.Message);
             }
         }
 
@@ -102,14 +102,14 @@ namespace _17_WinFormsApp_SerializadorJSON
                     resposta = resposta + i.Nome + "\n";
                 }
 
-                MessageBox.Show(resposta, "Alerta");
+                Console.WriteLine(resposta);
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Erro: " + ex.Message);
+                Console.WriteLine("Erro: " + ex.Message);
             }
         }
-
+    
         public static void serializarJSON(List<Paciente> lista, string dadosArquivo)
         {
             try
@@ -126,11 +126,11 @@ namespace _17_WinFormsApp_SerializadorJSON
                 procurador.Close();
                 escritorJSON.Close();
 
-                MessageBox.Show("Sucesso para serializar com JSON", "Alerta");
+                Console.WriteLine("Sucesso para serializar com JSON", "Alerta");
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Erro: " + ex.Message);
+                Console.WriteLine("Erro: " + ex.Message);
             }
         }
 
@@ -149,11 +149,11 @@ namespace _17_WinFormsApp_SerializadorJSON
                     resposta = resposta + i.Nome + "\n";
                 }
 
-                MessageBox.Show(resposta, "Alerta");
+                Console.WriteLine(resposta);
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Erro: " + ex.Message);
+                Console.WriteLine("Erro: " + ex.Message);
             }
         }
     }

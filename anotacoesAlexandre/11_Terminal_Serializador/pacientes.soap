@@ -1,0 +1,29 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/clr/" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+  <SOAP-ENV:Body>
+    <a1:_x0030__x002C__x0020_Culture_x003D_neutral_x002C__x0020_PublicKeyToken_x003D_null_x005D__x005D_ id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/System.Collections.Generic.List`1[[_11_Terminal_Serializador.Paciente%2C%2011_Terminal_Serializador%2C%20Version%3D1.0.0/System.Private.CoreLib%2C%20Version%3D6.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3D7cec85d7bea7798e">
+      <_items href="#ref-2" />
+      <_size>3</_size>
+      <_version>3</_version>
+    </a1:_x0030__x002C__x0020_Culture_x003D_neutral_x002C__x0020_PublicKeyToken_x003D_null_x005D__x005D_>
+    <SOAP-ENC:Array id="ref-2" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/_11_Terminal_Serializador/11_Terminal_Serializador%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull" SOAP-ENC:arrayType="a2:Paciente[4]">
+      <item href="#ref-3" />
+      <item href="#ref-4" />
+      <item href="#ref-5" />
+    </SOAP-ENC:Array>
+    <a2:Paciente id="ref-3" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/_11_Terminal_Serializador/11_Terminal_Serializador%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <_x003C_Nome_x003E_k__BackingField id="ref-6">Alexandre</_x003C_Nome_x003E_k__BackingField>
+      <_x003C_DataNascimento_x003E_k__BackingField>1974-08-09T00:00:00.0000000-03:00</_x003C_DataNascimento_x003E_k__BackingField>
+      <_x003C_Cpf_x003E_k__BackingField id="ref-7">4234234234</_x003C_Cpf_x003E_k__BackingField>
+    </a2:Paciente>
+    <a2:Paciente id="ref-4" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/_11_Terminal_Serializador/11_Terminal_Serializador%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <_x003C_Nome_x003E_k__BackingField id="ref-8">Carol</_x003C_Nome_x003E_k__BackingField>
+      <_x003C_DataNascimento_x003E_k__BackingField>2006-08-09T00:00:00.0000000-03:00</_x003C_DataNascimento_x003E_k__BackingField>
+      <_x003C_Cpf_x003E_k__BackingField id="ref-9">12335667</_x003C_Cpf_x003E_k__BackingField>
+    </a2:Paciente>
+    <a2:Paciente id="ref-5" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/_11_Terminal_Serializador/11_Terminal_Serializador%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <_x003C_Nome_x003E_k__BackingField id="ref-10">Pedro</_x003C_Nome_x003E_k__BackingField>
+      <_x003C_DataNascimento_x003E_k__BackingField>2014-07-01T00:00:00.0000000-03:00</_x003C_DataNascimento_x003E_k__BackingField>
+      <_x003C_Cpf_x003E_k__BackingField id="ref-11">4235534234</_x003C_Cpf_x003E_k__BackingField>
+    </a2:Paciente>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

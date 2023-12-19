@@ -3,7 +3,7 @@
 ## Aula 19/12/2023
     - Chamada
     - Descrição do projeto final
-    - Windows Forms + Serialização (XML, JSON e SOAP)
+    - Windows Forms + Serialização (SOAP, XML  e JSON)
 
 ## Aula 15/12/2023
     - Chamada
